@@ -53,25 +53,25 @@ const displayMeals = async() => {
 //displayMeals();
 
 
-function newArticle(){
+//function newArticle(){
 
     //créé la div qui contint l'article que je rattache au body
-    const article = document.createElement('div');
-    article.setAttribute('class', 'article');
-    document.querySelector('body').append(article);
+    //const article = document.createElement('div');
+    //article.setAttribute('class', 'article');
+    //document.querySelector('body').append(article);
 
     //créé la balise titre en h2 que je rattache a la div article
-    const title = document.createElement('h2');
-    title.setAttribute('class' , 'article_title');
-    document.querySelector(article).append(title);
+    //const title = document.createElement('h2');
+    //title.setAttribute('class' , 'article_title');
+    //document.querySelector(article).append(title);
 
     // créé la balise img que je rattache a la div article
-    const image = document.createElement ('img');
-    image.setAttribute('class', 'article_image');
-    document.querySelector(article).append(image);
+    //const image = document.createElement ('img');
+    //image.setAttribute('class', 'article_image');
+    //document.querySelector(article).append(image);
 
 
-}
+//}
 
 
 //au click sur le bouton, créé la fonction newArticle
