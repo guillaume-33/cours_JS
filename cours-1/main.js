@@ -74,7 +74,7 @@ const displayMeals = async() => {
 //}
 
 
-//au click sur le bouton, créé la fonction newArticle
+//au click sur le bouton, affiche les recettes
 document.querySelector("#new").addEventListener('click',() =>{   
     console.log('ici');
     displayMeals();
