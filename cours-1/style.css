@@ -1,0 +1,19 @@
+.article{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px black;
+}
+
+.meal_category{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
